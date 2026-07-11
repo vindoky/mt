@@ -2,7 +2,7 @@ name: Scraper Malta
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: '59 11 * * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
